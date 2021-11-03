@@ -1,0 +1,1 @@
+rdebug-ide -h 0.0.0.0 -p 9001 -- details.rb 9080
