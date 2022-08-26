@@ -8,4 +8,4 @@ RUN bundle install
 
 EXPOSE 9080
 
-CMD ["sh", "-c", "bundle exec rackup -o 0.0.0.0 -p 9080"]
+CMD ["sh", "-c", "bundle exec ruby details.rb 9080"]
